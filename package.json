@@ -2,6 +2,10 @@
   "name": "ast-project-2017",
   "description": "simple prpoject for ECE AST class",
   "version": "0.0.1",
+  "scripts": {
+    "start": "./bin/start",
+    "test": "./bin/test tests/*"
+  },
   "dependencies": {
     "gulp": "1.0"
   },
