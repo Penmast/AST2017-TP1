@@ -1,7 +1,7 @@
 module.exports = {
   save: function(name, pwd, callback) {
     if(callback == null){
-      callback(new Error('missing parameters'))
+      pwd(new Error('missing parameters'))
     }else{
       console.log("saving "+ name + " with pwd " + pwd)
         callback()
